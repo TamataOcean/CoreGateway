@@ -49,6 +49,6 @@ sudo apt-get update && sudo apt-get install influxdb2 -Y &&
 echo "---------------"
 echo "CREATE DATABASE" 
 echo "---------------" 
-influx setup --username test --password LIENS12345 --org LIENS --bucket DATAGAS --force &&
+influx setup --username test --password LIENS12345 --org LIENS --bucket DATAGAS --force 
 
 #### PACKAGE DEPLOY END ####
