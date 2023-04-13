@@ -1,5 +1,5 @@
 # CoreGateway
-Core module to deploy modules on raspberry and launching service pour saving data from MQTT 
+Core module to deploy modules on raspberry and launching service to save data on influxDB from MQTT 
 
 Une fois que l'image raspi est installée ( et SSH activée ) lancer la commande
 
