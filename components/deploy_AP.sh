@@ -19,10 +19,8 @@ sudo iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT &&
 sudo iptables -A FORWARD -i wlan0 -o usb0 -j ACCEPT &&
 sleep 5
 sudo sh -c "iptables-save > /etc/iptables.ipv4.nat" &&
-sudo cp /home/pi/OceanIsOpen/systools/wifi_raspi/rc.local /etc/rc.local &&
+sudo cp wifi_raspi/rc.local /etc/rc.local &&
 sudo chmod +x  /etc/rc.local &&
 
 sudo systemctl unmask hostapd &&
-sudo systemctl enable hostapd #&&
-
-#sudo reboot now
+sudo systemctl enable hostapd
