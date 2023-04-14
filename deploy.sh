@@ -13,7 +13,7 @@ sudo ./components/deploy_Grafana.sh &&
 sudo ./components/deploy_InfluxDB.sh &&
 sudo ./components/deploy_AP.sh &&
 
-sudo apt-get upgrade &&
+sudo apt-get upgrade -y &&
 echo "Rebooting..."
 sudo reboot now
 
