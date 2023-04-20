@@ -10,6 +10,7 @@ sudo ./components/deploy_Mosquitto.sh &&
 sudo ./components/deploy_NodeJS.sh &&
 #sudo ./components/deploy_Grafana.sh && 
 sudo ./components/deploy_InfluxDB.sh &&
+#sudo ./components/deploy_oioService.sh &&
 #sudo ./components/deploy_AP.sh &&
 
 #sudo apt-get update && 
