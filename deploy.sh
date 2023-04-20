@@ -9,6 +9,7 @@ chmod u+x ./components/*.sh &&
 sudo ./components/deploy_NodeJS.sh &&
 sudo ./components/deploy_oioService.sh &&
 
+#sudo ./components/deploy_Postgres.sh &&
 #sudo ./components/deploy_InfluxDB.sh &&
 #sudo ./components/deploy_Mosquitto.sh &&
 #sudo ./components/deploy_Grafana.sh && 
