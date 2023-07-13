@@ -17,5 +17,4 @@ sudo echo "host    all             all             0.0.0.0/0               md5" 
 echo "Restarting service"
 systemctl restart postgresql
 
-
-# NEXT STEPS SEE : https://github.com/jancelin/MultiProbeCase/blob/dev/gateway/MPC_install_postgresql_grafana_rfcommBT_rtk_.md
+# NEXT STEPS SEE : [jancelin/MultiProbeCase/gateway](https://github.com/jancelin/MultiProbeCase/blob/dev/gateway/MPC_install_postgresql_grafana_rfcommBT_rtk_.md)
