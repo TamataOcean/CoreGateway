@@ -9,7 +9,9 @@ sudo apt-get update
 sudo apt install -y timescaledb-2-postgresql-13
 
 echo "Update config file"
-sudo echo "listen_addresses = '*' \n shared_preload_libraries = 'timescaledb,pg_cron' \n cron.database_name = 'mpc'" | sudo tee -a /etc/postgresql/13/main/postgresql.conf
+sudo echo "listen_addresses = '*'" | sudo tee -a /etc/postgresql/13/main/postgresql.conf
+sudo echo "shared_preload_libraries = 'timescaledb,pg_cron'" | sudo tee -a /etc/postgresql/13/main/postgresql.conf
+sudo echo "cron.database_name = 'mpc'" | sudo tee -a /etc/postgresql/13/main/postgresql.conf
 sudo echo "host    all             all             0.0.0.0/0               md5" | sudo tee -a /etc/postgresql/13/main/pg_hba.conf
 
 echo "Restarting service"
